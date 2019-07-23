@@ -1,0 +1,22 @@
+body{
+    background-color: beige
+}
+.navbar {
+    background-color: transparent!important;
+  
+  }
+  .navbar .navbar-nav{
+    margin: auto;
+    font-size: 20px;
+    width: 300px;
+    padding: 100px;
+   
+  
+  }
+  .navbar {
+    min-height: 50px;
+  }
+  
+  .nav-item{
+    padding: 25px;
+  }

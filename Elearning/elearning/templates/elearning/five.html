@@ -1,0 +1,9 @@
+{% extends "elearning/base.html"%}
+{% block content%}
+    {% for images in image%}
+    img src="{{ obj1.photo.url }}"
+      {{ images.images}}
+      {{ images.category}}
+
+    {% endfor%}
+{% endblock content%}
